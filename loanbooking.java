@@ -24,7 +24,7 @@ public class SimpleWordCounter {
                     wordCount.put(word, wordCount.get(word) + 1);
             }
             
-            // show results
+            // show results clearly
             for(String word : wordCount.keySet())
                 System.out.println(word + " " + wordCount.get(word));
             System.out.println(wordCount.size());
